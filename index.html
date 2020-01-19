@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+    <head>    
+        <meta charset="UTF-8">
+        <!-- mobile setting -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- Style sheet that links the CSS to the HTML. -->
+        <link rel="stylesheet" type="text/css" href="index.css"/>
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="center">
+                <div class="smartphone">
+                    <div class="content">
+                        <div class="center_half">
+                            <p id="message_prompt" class="true_center">Going for a drive?</p>
+                        </div>
+                        <div class="center_half">
+                            <div class="center_quarter" style="margin: 0; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                                <button id="yes_btn" class="yes_btn" onclick='nextPrompt();'>YES</button>
+                            </div>
+                            <div class="center_quarter" style="margin: 0; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                                <button id="no_btn" class="no_btn" onclick='exitPrompt();'>NO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+
+    <footer>
+    </footer>
+
+</html>
